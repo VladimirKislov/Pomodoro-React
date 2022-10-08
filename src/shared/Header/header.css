@@ -1,0 +1,10 @@
+.headerContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    background-color: var(--white);
+    box-shadow: 0px 10px 63px var(--greyED);
+}

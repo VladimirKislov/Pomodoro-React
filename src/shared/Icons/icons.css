@@ -1,0 +1,19 @@
+.img {
+    margin-right: 13px;
+}
+
+.statisticsIcon {
+    margin-right: 9px;
+}
+
+.addTask {
+    position: absolute;
+    top: 65px;
+    right: -80px;
+}
+
+.settingIcon {
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+}

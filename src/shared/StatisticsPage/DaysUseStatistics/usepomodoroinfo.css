@@ -1,0 +1,126 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 952px;
+    grid-template-rows: 260px 179px 179px;
+    row-gap: 32px;
+    column-gap: 32px;
+}
+
+.day {
+    padding: 25px;
+    height: 260px;
+    background-color: var(--greyF4);
+}
+
+.dayTitle {
+    margin-bottom: 14px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+.dayText {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.dayTextMin {
+    color: var(--red);
+}
+
+.chart {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 51px;
+    height: 471px;
+    background-color: var(--greyF4);
+}
+
+.chartContainer {
+    width: 100%;
+    height: 420px;
+    background-image: url("https://i.ibb.co/gRXNw7q/chart.png");
+    background-size: contain;
+}
+
+.chartDays {
+    display: flex;
+    align-items: center;
+    grid-column: 1 / 3;
+    padding: 0 126px 0 72px;
+    background-color: var(--greyEC);
+}
+
+.chartDaysTitle {
+    width: 77px;
+    text-align: center;
+}
+
+.chartDaysTitle:not(:last-child) {
+    margin-right: 36px;
+}
+
+.pomodoroCount {
+    height: 179px;
+    background-color: var(--greyF4);
+}
+
+.pomodoroImgTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.pomodoroImgTwoLogo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.pomodoroImgTwoDefaultLogo {
+    padding: 32px 91px;
+}
+
+.pomodoroImgTwoText {
+    width: 100%;
+    padding: 9px 60px;
+    background-color: var(--red);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    color: var(--white);
+}
+
+.pomodoroInfo {
+    display: flex;
+    justify-content: space-between;
+    grid-row: 3 / 4;
+    grid-column: 1 / 3;
+    column-gap: 32px;
+}
+
+.pomodoroInfoWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 35px 25px 25px;
+    width: 405px;
+    height: 179px;
+    background-color: var(--greyF4);
+}
+
+.pomodoroInfoTitle {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+.pomodoroInfoText {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 76px;
+}

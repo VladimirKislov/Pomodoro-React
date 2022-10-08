@@ -1,0 +1,44 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 625px;
+    padding-right: 16px;
+}
+
+.title {
+    margin-bottom: 3px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+.list {
+    margin-bottom: 25px;
+}
+
+.listItem {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.dot {
+    margin-right: 15px;
+    color: var(--redDot);
+}
+
+.ToDoListItem {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    max-width: 370px;
+    border-top: 1px solid var(--greyE4);
+}
+
+.totalTime {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 17px;
+    color: var(--grey99);
+}

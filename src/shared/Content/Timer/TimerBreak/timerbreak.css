@@ -1,0 +1,90 @@
+.wrapper {
+    width: 100%;
+    max-width: 733px;
+    height: 507px;
+    background-color: var(--greyF4);
+}
+
+.wrapperHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 40px;
+    background-color: var(--green);
+}
+
+.headerTitle {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px;
+    color: var(--white);
+}
+
+.headerInfo {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--white);
+}
+
+.wrapperTimer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.timerTitle {
+    font-size: 150px;
+    font-weight: 200;
+    line-height: 179px;
+    color: var(--black);
+}
+
+.timerTask {
+    margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--grey99);
+}
+
+.gistTask {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--black);
+}
+
+.btn {
+    display: flex;
+}
+
+.btnStart {
+    padding: 19px 50px;
+    border: 2px solid var(--green);
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--white);
+    background-color: var(--green);
+}
+
+.btnSkip {
+    padding: 19px 50px;
+    border: 2px solid var(--red);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--red);
+}
+
+.containerTime {
+    position: relative;
+}
+
+.addTask {
+    position: absolute;
+    top: 65px;
+    right: -80px;
+}

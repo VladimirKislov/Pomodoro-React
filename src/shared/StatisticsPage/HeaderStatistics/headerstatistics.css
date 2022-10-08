@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.selector-dropdown {
+    background-color: var(--orang);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 3px;
+}
